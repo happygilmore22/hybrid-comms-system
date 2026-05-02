@@ -1,7 +1,9 @@
 # Hi, I'm Rich Daniels 👋
 
+![System Overview](hero_landing.png)
+
 **Systems / Network Engineer**  
-Hybrid Communications Systems | RF • VoIP • SDR • Cloud
+Hybrid Communications Systems | RF • VoIP • SDR • Cloud • SATCOM • Networks 
 
 ---
 
