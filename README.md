@@ -1,6 +1,9 @@
 # Hi, I'm Rich Daniels 👋
 
-![System Overview](hero_landing.png)
+<h3 align="center">Rich Daniels</h3>
+<p align="center">
+Systems / Network Engineer | RF • VoIP • SDR • Cloud
+</p>
 
 **Systems / Network Engineer**  
 Hybrid Communications Systems | RF • VoIP • SDR • Cloud • SATCOM • Networks 
@@ -27,6 +30,8 @@ Focused on **resilient architecture, interoperability, and real-world validation
 
 ### Hybrid Communications System
 Public technical overview of a fully integrated RF + VoIP + SDR + cloud architecture.
+
+![System Overview](hero_landing.png)
 
 👉 [View Live Project](https://richard-daniels.github.io/hybrid-comms-system/)  
 👉 [View Source Repo](https://github.com/richard-daniels/hybrid-comms-system)
