@@ -1,24 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hybrid Communications System</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial; text-align: center; margin: 40px; }
-    img { max-width: 100%; height: auto; border-radius: 8px; }
-    a { display: inline-block; margin-top: 20px; padding: 12px 20px;
-        background: #0b2a4a; color: white; text-decoration: none; border-radius: 6px; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07172f;
+      color: #ffffff;
+    }
+    header {
+      padding: 48px 24px 28px;
+      text-align: center;
+      background: linear-gradient(180deg, #0b2a4a, #07172f);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      margin-top: 12px;
+      color: #c9d7ef;
+      font-size: 1.05rem;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+      text-align: center;
+    }
+    .hero {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.45);
+      border: 1px solid rgba(255,255,255,0.16);
+      background: #ffffff;
+    }
+    .buttons {
+      margin: 28px 0;
+    }
+    .button {
+      display: inline-block;
+      margin: 8px;
+      padding: 13px 22px;
+      border-radius: 8px;
+      background: #ffffff;
+      color: #07172f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button.secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+      text-align: left;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+    .card p {
+      color: #c9d7ef;
+      line-height: 1.45;
+    }
+    footer {
+      text-align: center;
+      padding: 22px;
+      color: #9fb0cc;
+      font-size: 0.85rem;
+    }
   </style>
 </head>
 <body>
 
-<h1>Hybrid Communications System</h1>
-<p>Public Technical Overview</p>
+<header>
+  <h1>Hybrid Communications System</h1>
+  <div class="subtitle">
+    Public Technical Overview | RF + VoIP + SDR + Cloud Integration
+  </div>
+</header>
 
-<img src="hero.png" alt="System Overview">
+<main>
+  <img class="hero" src="system_overview.png" alt="Hybrid communications system overview">
 
-<br>
-<a href="presentation.pdf" target="_blank">View Full Presentation (PDF)</a>
+  <div class="buttons">
+    <a class="button" href="presentation.pdf" target="_blank">View PDF Brief</a>
+    <a class="button secondary" href="system_overview.png" target="_blank">Open PNG</a>
+  </div>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Integrated Architecture</h3>
+      <p>Combines RF, VoIP, SDR, and cloud services into a resilient communications platform.</p>
+    </div>
+    <div class="card">
+      <h3>Validated Workflow</h3>
+      <p>Includes test objectives, test plans, and validation results across network, voice, and SDR paths.</p>
+    </div>
+    <div class="card">
+      <h3>Public-Safe Version</h3>
+      <p>Infrastructure identifiers, call signs, IPs, and sensitive provider details are generalized.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Public technical overview. Sensitive infrastructure details generalized for security.
+</footer>
 
 </body>
 </html>
