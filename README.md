@@ -1,67 +1,56 @@
-# Hybrid Communications System
+# Hi, I'm Rich Daniels 👋
 
-## Overview
-This project demonstrates a fully integrated hybrid communications architecture combining:
+**Systems / Network Engineer**  
+Hybrid Communications Systems | RF • VoIP • SDR • Cloud
+
+---
+
+## 🚀 About Me
+
+I design and build hybrid communications systems that integrate:
 
 - RF (DMR / Analog / Digital Voice)
 - VoIP (SIP-based telephony)
-- SDR (ADS-B, AIS, spectrum analysis)
-- Cloud infrastructure (redundant VPS)
-- Secure overlay networking (VPN mesh)
+- SDR (ADS-B, AIS, telemetry)
+- Cloud infrastructure
+- Secure overlay networking
 
-The system is designed for **resilience, interoperability, and real-world validation**.
-
----
-
-## Key Capabilities
-- RF ↔ VoIP bridging
-- End-to-end voice routing (radio → cloud → PSTN)
-- SDR data ingestion and monitoring
-- WAN failover (Primary ↔ Secondary)
-- Secure remote access via VPN overlay
+Focused on **resilient architecture, interoperability, and real-world validation**.
 
 ---
 
-## Architecture Highlights
-- Segmented network design
-- Multi-path redundancy
-- Cloud failover (Region A / Region B)
-- Device-level validation across all subsystems
+## 🔧 Featured Project
+
+### Hybrid Communications System
+Public technical overview of a fully integrated RF + VoIP + SDR + cloud architecture.
+
+👉 [View Live Project](https://YOUR-USERNAME.github.io/hybrid-comms-system/)  
+👉 [View Source Repo](https://github.com/YOUR-USERNAME/hybrid-comms-system)
 
 ---
 
-## Validation Summary
-- Voice communications: PASS
-- RF bridging: PASS
-- SDR decoding: PASS
-- WAN failover: ~25 sec validated
-- System status: **Stable & Reliable**
+## 📊 Core Skills
+
+- Network Architecture & Design
+- RF / VoIP Integration
+- SDR Systems & Telemetry
+- VPN / Overlay Networking
+- Cloud Infrastructure & Failover
+- Systems Validation & Testing
 
 ---
 
-## Public Version Notice
-This repository contains a **sanitized public version** of the system:
+## 🎯 Interests
 
-- No IP addresses
-- No call signs
-- No sensitive infrastructure details
-- Providers and regions generalized
-
----
-
-## Project Artifacts
-- Architecture diagram
-- Bill of materials (sanitized)
-- Validation summary
-- Executive overview
+- Mission-critical communications
+- Space / satellite systems
+- Secure network operations
+- Distributed system design
 
 ---
 
-## Author
-**Rich Daniels**  
-Systems / Network Engineering
+## 📫 Contact
+
+- GitHub: https://github.com/YOUR-USERNAME
 
 ---
-
-## License
-This project is shared for portfolio and educational purposes.
