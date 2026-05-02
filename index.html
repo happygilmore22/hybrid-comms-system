@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid Communications System</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07172f;
+      color: #ffffff;
+    }
+
+    header {
+      padding: 50px 20px 30px;
+      text-align: center;
+      background: linear-gradient(180deg, #0b2a4a, #07172f);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.3rem;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      color: #c9d7ef;
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.15);
+      background: white;
+    }
+
+    .buttons {
+      margin: 30px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 24px;
+      border-radius: 8px;
+      background: white;
+      color: #07172f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.85rem;
+      color: #9fb0cc;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hybrid Communications System</h1>
+  <div class="subtitle">
+    Public Technical Overview | RF + VoIP + SDR + Cloud Integration
+  </div>
+</header>
+
+<main>
+
+  <img class="hero" src="system_overview.png" alt="System Overview">
+
+  <div class="buttons">
+    <a class="button" href="presentation.pdf" target="_blank">View PDF</a>
+    <a class="button secondary" href="system_overview.png" target="_blank">View Image</a>
+  </div>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Integrated Architecture</h3>
+      <p>Combines RF, VoIP, SDR, and cloud systems into a unified platform.</p>
+    </div>
+
+    <div class="card">
+      <h3>Validated System</h3>
+      <p>End-to-end testing across voice, RF, and data paths.</p>
+    </div>
+
+    <div class="card">
+      <h3>Public-Safe Design</h3>
+      <p>Sensitive infrastructure details removed for secure sharing.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Public technical overview. Infrastructure details generalized for security.
+</footer>
+
+</body>
+</html>
