@@ -1,4 +1,4 @@
-# Hi, I'm Rich Daniels 👋
+
 
 <h3 align="center">Rich Daniels</h3>
 <p align="center">
