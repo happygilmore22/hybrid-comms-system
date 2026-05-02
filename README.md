@@ -68,5 +68,5 @@ This project demonstrates real-world design, validation, and interoperability ac
 ## 📫 Contact
 
 - GitHub: https://github.com/richard-daniels
-
+- LinkedIn: https://linkedin.com/in/rich-daniels
 ---
