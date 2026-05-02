@@ -1,13 +1,210 @@
-<img class="hero" src="hero_landing.png" alt="System Overview">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid Communications System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07172f;
+      color: white;
+    }
 
-<br>
+    header {
+      text-align: center;
+      padding: 56px 20px 36px;
+      background: linear-gradient(180deg, #0b2a4a, #07172f);
+    }
 
-<a class="btn" href="presentation.pdf" target="_blank">
-  View Full Technical Overview (PDF)
-</a>
+    h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
 
-<br><br>
+    .subtitle {
+      margin-top: 12px;
+      color: #c9d7ef;
+      font-size: 1.1rem;
+    }
 
-<a class="btn" href="system_overview.png" target="_blank">
-  View Architecture Diagram
-</a>
+    main {
+      max-width: 1150px;
+      margin: auto;
+      padding: 28px 20px 60px;
+      text-align: center;
+    }
+
+    .hero {
+      width: 100%;
+      max-width: 1050px;
+      border-radius: 14px;
+      box-shadow: 0 22px 55px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.16);
+      background: white;
+    }
+
+    .buttons {
+      margin: 30px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 13px 22px;
+      background: white;
+      color: #07172f;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: white;
+      border: 1px solid rgba(255,255,255,0.75);
+    }
+
+    section {
+      margin-top: 42px;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      margin-bottom: 18px;
+    }
+
+    .cards, .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      text-align: left;
+    }
+
+    .card, .metric {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    .card h3, .metric h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+
+    .card p, .metric p {
+      color: #c9d7ef;
+      line-height: 1.45;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .overview-img {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 12px;
+      margin-top: 12px;
+      background: white;
+      border: 1px solid rgba(255,255,255,0.16);
+    }
+
+    .notice {
+      background: rgba(255,255,255,0.1);
+      border-left: 4px solid #ffffff;
+      padding: 18px;
+      border-radius: 10px;
+      color: #d8e4ff;
+      text-align: left;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #9fb0cc;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hybrid Communications System</h1>
+  <div class="subtitle">
+    Public Technical Overview | RF + VoIP + SDR + Cloud Integration
+  </div>
+</header>
+
+<main>
+
+  <img class="hero" src="hero_landing.png" alt="Hybrid Communications System Hero Image">
+
+  <div class="buttons">
+    <a class="btn" href="presentation.pdf" target="_blank">View Full PDF</a>
+    <a class="btn secondary" href="system_overview.png" target="_blank">View Architecture Diagram</a>
+  </div>
+
+  <section>
+    <h2 class="section-title">System Capabilities</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>RF + VoIP Integration</h3>
+        <p>Bridges radio communications with SIP-based voice infrastructure for end-to-end interoperability.</p>
+      </div>
+      <div class="card">
+        <h3>SDR / IoT Telemetry</h3>
+        <p>Supports ADS-B, AIS, LoRa/TinyGS, spectrum analysis, and CubeSat simulation workflows.</p>
+      </div>
+      <div class="card">
+        <h3>Resilient Network Design</h3>
+        <p>Uses segmented networking, secure overlay connectivity, and primary/failover WAN paths.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Validation Metrics</h2>
+    <div class="metrics">
+      <div class="metric">
+        <strong>PASS</strong>
+        <p>Subsystem validation completed across voice, RF, SDR, and network paths.</p>
+      </div>
+      <div class="metric">
+        <strong>~25 sec</strong>
+        <p>WAN failover path validated during testing.</p>
+      </div>
+      <div class="metric">
+        <strong>Stable</strong>
+        <p>System behavior observed as stable and reliable during validation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Architecture Overview</h2>
+    <img class="overview-img" src="system_overview.png" alt="Architecture Overview">
+  </section>
+
+  <section>
+    <div class="notice">
+      <strong>Public-Safe Version:</strong>
+      This overview has been sanitized for public sharing. Call signs, public IPs, exact infrastructure identifiers,
+      provider-specific details, and sensitive routing information have been generalized.
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Public technical overview. Infrastructure details generalized for security.
+</footer>
+
+</body>
+</html>
