@@ -7,6 +7,7 @@ Hybrid Communications Systems | RF • VoIP • SDR • Cloud • SATCOM • Net
 
 ---
 
+
 ## 🚀 About Me
 
 I design and build hybrid communications systems that integrate:
@@ -29,6 +30,11 @@ Public technical overview of a fully integrated RF + VoIP + SDR + cloud architec
 
 👉 [View Live Project](https://richard-daniels.github.io/hybrid-comms-system/)  
 👉 [View Source Repo](https://github.com/richard-daniels/hybrid-comms-system)
+
+## Why This Project Matters
+
+Modern communications systems require integration across RF, IP networks, and cloud infrastructure.  
+This project demonstrates real-world design, validation, and interoperability across these domains.
 
 ---
 
