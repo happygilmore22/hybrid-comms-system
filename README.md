@@ -1,4 +1,8 @@
+<p align="center">
+  <img src="github_banner.png" width="100%">
+</p>
 
+<h2 align="center">Hi, I’m Rich 👊🏾</h2>
 
 <h3 align="center">Rich Daniels</h3>
 <p align="center">
