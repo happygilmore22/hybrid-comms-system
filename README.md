@@ -24,8 +24,8 @@ Focused on **resilient architecture, interoperability, and real-world validation
 ### Hybrid Communications System
 Public technical overview of a fully integrated RF + VoIP + SDR + cloud architecture.
 
-👉 [View Live Project](https://YOUR-USERNAME.github.io/hybrid-comms-system/)  
-👉 [View Source Repo](https://github.com/YOUR-USERNAME/hybrid-comms-system)
+👉 [View Live Project](https://richard-daniels.github.io/hybrid-comms-system/)  
+👉 [View Source Repo](https://github.com/richard-daniels/hybrid-comms-system)
 
 ---
 
@@ -51,6 +51,6 @@ Public technical overview of a fully integrated RF + VoIP + SDR + cloud architec
 
 ## 📫 Contact
 
-- GitHub: https://github.com/YOUR-USERNAME
+- GitHub: https://github.com/richard-daniels
 
 ---
