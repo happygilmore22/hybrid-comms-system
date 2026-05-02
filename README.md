@@ -12,6 +12,7 @@ Hybrid Communications Systems | RF • VoIP • SDR • Cloud • SATCOM • Net
 I design and build hybrid communications systems that integrate:
 
 - RF (DMR / Analog / Digital Voice)
+- SATCOM (Protected Military + Commercial)
 - VoIP (SIP-based telephony)
 - SDR (ADS-B, AIS, telemetry)
 - Cloud infrastructure
