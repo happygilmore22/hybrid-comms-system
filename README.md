@@ -2,11 +2,6 @@
   <img src="github_banner.png" width="100%">
 </p>
 
-<h3 align="center">Rich Daniels</h3>
-<p align="center">
-Systems / Network Engineer | RF • VoIP • SDR • Cloud
-</p>
-
 **Systems / Network Engineer**  
 Hybrid Communications Systems | RF • VoIP • SDR • Cloud • SATCOM • Networks 
 
